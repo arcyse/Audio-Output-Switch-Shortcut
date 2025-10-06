@@ -74,13 +74,7 @@ Some un-cooperative background applications may cause delays of 1-2 seconds in t
 
 Usual culprits include - Settings, Microsoft Store, Caclulator, etc.
 
-```
-Windows polls all running programs when a key shortcut is executed with "Is this your shortcut combo ?" so that it switches focus to that window rather than launching a new copy of the program.
-
-This approach runs into a problem when a window somewhere refuses to answer the question. This causes Windows to await a response for 1-2 seconds before moving on to poll the other programs.
-
-You can identify such troublesome programs by trial and error only. The best approach to mitigate this issue is to ensure no such application is auto-started in the background at boot up unless explicitly critical for use and tasks.
-```
+>Windows polls all running programs when a key shortcut is executed with "Is this your shortcut combo ?" so that it switches focus to that window rather than launching a new copy of the program. This approach runs into a problem when a window somewhere refuses to answer the question. This causes Windows to await a response for 1-2 seconds before moving on to poll the other programs. You can identify such troublesome programs by trial and error only. The best approach to mitigate this issue is to ensure no such application is auto-started in the background at boot up unless explicitly critical for use and tasks.
 
 ## License
 
